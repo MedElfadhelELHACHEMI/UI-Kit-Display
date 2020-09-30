@@ -217,7 +217,7 @@ export default class App extends Component {
           <CheckBox
             label=" selected and disabled"
             disabled
-            selected={this.state.checked}
+            selected
             name="selected and disabled"
             onChange={this.onCheckToggle}
           />
